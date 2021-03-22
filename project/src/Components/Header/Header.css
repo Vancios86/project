@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.logo > img {
+    background: linear-gradient(67deg,  #e7e973 9%, #89f197 99%);
+}

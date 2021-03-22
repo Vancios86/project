@@ -1,0 +1,19 @@
+.LinkForm {
+    display: block;
+    padding: 10%;
+}
+.LinkForm > .text {
+    color: rgba(51, 50, 50, 0.753);
+    display: flex;
+    justify-content: center;
+}
+.LinkSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgba(51, 50, 50, 0.253);
+    box-shadow: 10px 10px 10px rgba(51, 50, 50, 0.753);
+}
+.LinkSubmit > input {
+    background-color: rgba(197, 228, 26, 0.382);
+}
