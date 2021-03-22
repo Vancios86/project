@@ -16,7 +16,7 @@ export default function LinkForm() {
                     name="LinkSubmit"
                 />
                 <button 
-                    className="w-30 grow f4 link ph3 pv2 dib light-yellow shadow-3 bg-light-green">
+                    className="w-30 grow f4 link ph3 pv2 dib shadow-3">
                     Press me
                 </button> 
             </div>

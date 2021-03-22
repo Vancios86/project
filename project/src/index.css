@@ -6,4 +6,5 @@ body {
 
 button {
   cursor: pointer;
+  background: rgba(73, 240, 7, 0.3);
 }
