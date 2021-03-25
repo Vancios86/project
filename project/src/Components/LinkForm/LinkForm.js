@@ -1,7 +1,8 @@
 import React from 'react'
 import './LinkForm.css'
 
-export default function LinkForm() {
+export default function LinkForm(props) {
+    console.log(props)
     return (
         <div className="LinkForm">   
             <div className="text">
@@ -14,9 +15,12 @@ export default function LinkForm() {
                     type="text" 
                     placeholder="paste url" 
                     name="LinkSubmit"
+                    onChange={props.onInputChange}
                 />
                 <button 
-                    className="w-30 grow f4 link ph3 pv2 dib shadow-3">
+                    className="w-30 grow f4 link ph3 pv2 dib shadow-3"
+                    onClick={props.onButtonSubmit}
+                >
                     Press me
                 </button> 
             </div>

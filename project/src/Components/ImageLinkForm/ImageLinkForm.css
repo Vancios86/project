@@ -1,0 +1,14 @@
+.ImageDisplay {
+    display: block;
+    position: sticky;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.37);  
+}
+.ImageDisplay > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: auto;
+    max-width: auto;
+    box-shadow: 20px 20px 20px rgba(34, 33, 33, 0.712);
+}
