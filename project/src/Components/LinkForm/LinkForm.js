@@ -2,7 +2,6 @@ import React from 'react'
 import './LinkForm.css'
 
 export default function LinkForm(props) {
-    console.log(props)
     return (
         <div className="LinkForm">   
             <div className="text">
